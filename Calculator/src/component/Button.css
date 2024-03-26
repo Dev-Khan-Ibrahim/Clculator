@@ -1,0 +1,27 @@
+.button {
+    width: calc(25% - 0.46vw); 
+    height: 4.2vw;
+    margin: 0.2vw ; /* Adjust margin as needed */
+    font-size: 1.7vw;
+    background-color: #1E1E1E;;
+    border: none;
+   color: white;
+    cursor: pointer;
+    outline: none;
+display: flex;
+justify-content: space-around;
+align-items: center;
+  }
+  
+  .button.special {
+    background-color: #3d3d3a; /* Yellow background for "+" and "=" buttons */
+    border-radius: 50%;
+  }
+  .button.operator {
+    background-color: #3d3d3a; /* Blue background for operator buttons */
+    border-radius: 50%;
+
+  }
+  .wide-equal {
+    width: calc(50% - 0.vw);  
+  }
